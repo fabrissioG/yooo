@@ -1,0 +1,31 @@
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-image: url(blue-light-wallpaper-preview.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.productos {
+  display: flex;
+  gap: 20px;
+}
+.producto {
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+}
+button {
+  background-color: #00aaff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0077aa;
+}

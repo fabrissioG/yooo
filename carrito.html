@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito Simple</title>
+  <link rel="stylesheet" href="carrito.css">
+  <link rel="script" href="carrito.js">
+</head>
+<body>
+  <h1>Servicios disponibles</h1>
+
+  <div class="productos">
+    <div class="producto">
+      <h3>Mantenimiento de PC</h3>
+      <p>$40.000</p>
+      <button onclick="agregarAlCarrito('Mantenimiento de PC', 40)">Agregar al carrito</button>
+    </div>
+
+    <div class="producto">
+      <h3>Asesoramiento de componentes</h3>
+      <p>$7.000</p>
+      <button onclick="agregarAlCarrito('Asesoramiento', 7)">Agregar al carrito</button>
+    </div>
+    <div class="producto">
+      <h3>Formateo e instalación de sistema operativo</h3>
+      <p>$9.000</p>
+      <button onclick="agregarAlCarrito('Asesoramiento', 9)">Agregar al carrito</button>
+    </div>
+  </div>
+
+  <h2>🛒 Carrito</h2>
+  <ul id="carrito"></ul>
+  <p>Total: $<span id="total">0</span></p>
+
+  <script src="carrito.js"></script>
+</body>
+</html>
